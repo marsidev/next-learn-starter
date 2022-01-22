@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'

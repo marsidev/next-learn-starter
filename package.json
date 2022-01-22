@@ -4,7 +4,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "git": "git add -A && git commit -m 'update' && git push"
+    "lint": "next lint",
+    "git": "git add -A && git commit -m",
+    "postgit": "git push origin main"
   },
   "dependencies": {
     "date-fns": "^2.28.0",
@@ -14,5 +16,9 @@
     "react-dom": "17.0.2",
     "remark": "14.0.2",
     "remark-html": "15.0.1"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8"
   }
 }

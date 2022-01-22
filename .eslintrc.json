@@ -1,0 +1,14 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-console": "off",
+    "space-before-function-paren": "off",
+    "no-use-before-define": "off",
+    "no-return-assign": "off",
+    "spaced-comment": "warn",
+    "no-unused-vars": "warn",
+    "no-extend-native": "off",
+    "quotes": ["error", "single"],
+	  "jsx-quotes": ["error", "prefer-single"]
+  }
+}
